@@ -25,7 +25,9 @@ When user requests UI/UX work (design, build, create, implement, review, fix, im
 
 Extract key information from user request:
 - **Product type**: SaaS, e-commerce, portfolio, dashboard, landing page, etc.
-- **Style keywords**: minimal, playful, professional, elegant, dark mode, etc.
+- **Style keywords**: minimal, playful,  - **Concept**: ESG-First / Sustainability Hero / Eco-Hero
+  - **Palette**: Emerald-600 (Eco-Hero), Slate-900 (Text), Emerald-50 (Surface)
+  - **Principle**: Energy-saving aesthetic, clear metrics, branded watermarks, power-efficient aesthetics.
 - **Industry**: healthcare, fintech, gaming, education, etc.
 - **Stack**: React, Vue, Next.js, or default to `html-tailwind`
 
@@ -75,4 +77,7 @@ python3 .agent/skills/ui-ux-pro-max/src/ui-ux-pro-max/scripts/search.py "<keywor
 - [ ] Smooth transitions (150-300ms)
 - [ ] Light/Dark mode contrast checks
 - [ ] Responsive design (mobile/tablet/desktop)
+- [ ] **ESG Visual Rule**: ESG/Sustainability elements are ALWAYS Green, NEVER Brand-Red.
+- [ ] **Eco-Hero PageHeader**: All main list views MUST apply `:eco="true"` to `PageHeader`.
+- [ ] **Sidebar Consistency**: All menu levels (including sub-menus) MUST have expressive SVG icons for navigation clarity.
 
